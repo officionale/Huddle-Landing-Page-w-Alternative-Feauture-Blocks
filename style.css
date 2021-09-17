@@ -233,6 +233,7 @@ body
 		font-size: 13px;
 		display: block;
 		padding: 5px;
+		transition: 0.5s
 	}	
 .contact
 	{
