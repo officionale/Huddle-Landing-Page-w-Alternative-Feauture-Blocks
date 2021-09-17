@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+:root
+	{
+		--fontHeader: 'Poppins', sans-serif;
+		--fontBody: 'Open Sans', sans-serif;
+		--buttonPink:	hsl(322, 100%, 66%);
+		--background: hsl(193, 100%, 96%);
+		--textHeader: hsl(192, 100%, 9%);
+		--textBody: hsl(208, 11%, 55%);
+	}
+*
+	{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+body
+	{
+		font-size: 18px;
+	}
+.section1
+	{
+		background-image: url(./images/bg-hero-mobile.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-color: var(--background);
+		height: 800px;
+	}
+.navHeader
+	{
+		display: flex;
+		justify-content: space-between;
+		width: 95%;
+		margin: auto;
+		padding: 20px;
+	}
+.navLogo
+	{
+		width: 30%;
+		height: 35%;
+		margin-top: 5px;
+	}
+.tryItFree
+	{
+		outline: none;
+		border: none;
+		font-family: var(--fontBody);
+		font-weight: 700;
+		font-size: 14px;
+		color: var(--textHeader);
+		background-color: white;
+		width: 30%;
+		height: 25px;
+		border-radius: 18px;
+		box-shadow: 2px 5px 5px hsla(0, 0%, 0%, 0.5);
+		transform: scale(1);
+		transition: 0.5s ease-in-out;
+	}
+.tryItFree:hover
+	{
+		transform: scale(1.2);
+		cursor: pointer;
+	}
+.head h2
+	{
+		display: block;
+		font-family: var(--fontHeader);
+		font-weight: 600;
+		text-align: center;
+		color: var(--textHeader);
+		width: 80%;
+		margin: auto;
+		margin-top: 80px;
+	}
+.head p
+	{
+		display: block;
+		font-family: var(--fontBody);
+		text-align: center;
+		width: 90%;
+		margin: auto;
+		margin-top: 35px;
+	}
+.getStarted
+	{
+		display: block;
+		outline: none;
+		border: none;
+		background-color: var(--buttonPink);
+		font-family: var(--fontBody);
+		font-size: 15px;
+		font-weight: 600;
+		color: white;
+		width: 70%;
+		height: 40px;
+		margin: auto;
+		border-radius: 18px;
+		margin-top: 30px;
+		box-shadow: 2px 5px 5px hsla(0, 0%, 0%, 0.5);
+		transition: 0.2s ease-in;
+	}
+.getStarted:hover
+	{
+		cursor: pointer;
+		background-color: hsl(322, 89%, 90%);
+	}
+.illustrationMockup
+	{
+		display: block;
+		width: 90%;
+		margin: auto;
+		margin-top: 55px;
+	}
+.card
+	{
+		height: 500px;
+		width: 90%;
+		margin: auto;
+		border-radius: 10px;
+		box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1), -5px -5px 5px hsla(0, 0%, 0%, 0.1);
+		margin-top: 60px;
+		padding: 30px;
+		padding-top: 60px;
+	}
+.section2Image
+	{
+		display: block;
+		width: 80%;
+		margin: auto;
+	}
+.card h3
+	{
+		display: block;
+		font-family: var(--fontHeader);
+		font-weight: 600;
+		color: var(--textHeader);
+		text-align: center;
+		margin-top: 90px;
+		width: 90%;
+	}
+.card p
+	{
+		display: block;
+		font-family: var(--fontBody);
+		font-weight: 300;
+		text-align: center;
+		color: var(--textBody);
+		width: 90%;
+		margin: auto;
+		font-size: 15px;
+		margin-top: 10px;
+	}
+.section3
+	{	
+		width: 90%;
+		height: 180px;
+		margin: auto;
+		box-shadow: -5px -5px 5px hsla(0, 0%, 0%, 0.1), 5px 0 5px hsla(0, 0%, 0%, 0.1);
+		border-radius: 10px;
+		padding-top: 40px;
+		margin-top: -200px;
+		background-color: white;
+	}
+.section3 h3
+	{
+		display: block;
+		font-family: var(--fontHeader);
+		font-weight: 700;
+		color: var(--textHeader);
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+	}
+.section4
+	{
+		background-color: var(--textHeader);
+		height: 900px;
+		color: white;
+		padding-top: 90px;
+		margin-top: 200px;
+	}
+.footerLogo
+	{
+		display: block;
+		margin-top: 40px;
+		width: 50%;
+		margin-bottom: 20px;
+	}
+.foot
+	{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+.footImage
+	{
+
+		margin-left: 10px;
+	}
+.footText
+	{
+		display: block;
+		font-family: var(--fontBody);
+		font-size: 15px;
+		font-weight: 300;
+		width: 70%;
+		text-align: left;
+		margin: auto;
+	}
+.locationImage
+	{
+		display: block;
+		height: 20px;
+		margin-top: 5px;
+	}
+.footer
+	{
+		display: block;
+		font-family: var(--fontBody);
+		margin-bottom: 25px;
+		margin-left: 20px;
+	}
+.footer:hover
+	{	
+		cursor: pointer;
+	}
+.footerwrap
+	{
+		margin-top: 60px;
+	}
+.fab
+	{
+		font-size: 13px;
+		display: block;
+		padding: 5px;
+	}	
+.contact
+	{
+		display: flex;
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		justify-content: space-between;
+		margin-top: 50px;
+	}
+.contactDetail
+	{
+		border: 2px solid white;
+		border-radius: 50%;
+		padding: 10px;
+	}
+.contactDetail:hover
+	{
+		border: 2px solid var(--buttonPink);
+		color: var(--buttonPink);
+		cursor: pointer;
+	}
+.copyright
+	{
+		font-family: var(--fontBody);
+		font-size: 15px;
+		text-align: center;
+		display: block;
+		margin-top: 60px;
+	}
+.attribution
+	{
+		font-family: var(--fontBody);
+		font-size: 13px; 
+		text-align: center;
+		font-family: var(--fontBody);
+	}
+.attribution a
+     {
+		text-decoration: none;
+	     color: hsl(228, 45%, 44%);
+	}
+@media screen and (min-width: 800px) {
+	.section1
+		{
+			background-image: url(./images/bg-hero-desktop.svg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			padding-top: 70px;
+			height: 600px;
+		}
+	.navLogo
+		{
+			width: 20%;
+		}	
+	.tryItFree
+		{
+			height: 35px;
+			width: 20%;
+		}
+	.wrapperhead
+		{
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+		}
+	.illustrationMockup
+		{
+			width: 40%;
+			margin-right: 10%;
+		}
+	.head
+		{
+			width: 60%;
+			text-align: left;
+		}
+	.head h2, .head p
+		{
+			text-align: left;
+			width: 55%;
+			margin-left: 10%;
+		}
+	.getStarted
+		{
+			width: 40%;
+			margin-left: 10%;
+		}
+	.card
+		{
+			height: 400px;
+			display: flex;
+			justify-content: space-between;
+		}
+	.card1, .card3
+		{
+			flex-direction: row-reverse;
+		}
+	.section2Image
+		{
+			width: 35%;
+		}
+	.card p, .card h3
+		{
+			margin: auto;
+			text-align: left;
+		}
+	.cardText
+		{
+			margin-top: 100px;
+		}
+
+	.section3
+		{
+			width: 40%;
+		}
+	.section3 .getStarted
+		{
+			margin: auto;
+			margin-top: 20px;
+		}
+	.section4
+		{
+			height: 600px;
+		}
+	.footerLogo
+		{
+			width: 20%;
+			margin-left: 5%;
+		}
+	.footImage
+		{
+			margin-left: 10%;
+		}
+	.footerwrapper
+		{
+			display: flex;
+		}
+	.logocontainer
+		{
+			display: flex;
+			flex-direction: column;
+			width: 50%;
+		}
+	.location
+		{
+			margin-left: 4%;
+			width: 75%;
+		}
+	.footerwrap
+		{
+			height: 150px;
+			width: 30%;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			margin-top: 0;
+		}
+	.contact
+		{
+			width: 20%;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-top: 0;
+		}
+	.copyright
+		{
+			text-align: right;
+			margin-right: 5%;
+		}
+}
